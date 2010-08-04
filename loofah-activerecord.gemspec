@@ -1,10 +1,7 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib/', __FILE__)
-$:.unshift lib unless $:.include?(lib)
-require 'loofah-activerecord'
 Gem::Specification.new do |s|
   s.name        = "loofah-activerecord"
-  s.version     = Loofah::ActiveRecord::VERSION
+  s.version     = "1.0.0.beta.1"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Mike Dalessio"]
   s.required_rubygems_version = ">= 1.3.1"
